@@ -14,11 +14,12 @@ export default {
         "custom-gray": "0 23px 21px -8px rgba(136, 160, 255, 0.25)",
       },
       backgroundImage: {
-        'gradient-blue': 'linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%)',
-        'gradient-orange': 'linear-gradient(270deg, #ffb978 0%, #ff922d 100%)',
+        "gradient-blue":
+          "linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%)",
+        "gradient-orange": "linear-gradient(270deg, #ffb978 0%, #ff922d 100%)",
       },
       fontFamily: {
-        sans: ['Poppins', 'sans-serif'],
+        sans: ["Poppins", "sans-serif"],
       },
     },
   },

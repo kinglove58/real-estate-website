@@ -5,3 +5,7 @@
 * {
   scroll-behavior: smooth;
 }
+
+.flex-center-text {
+  @apply flex items-center text-4xl font-sans gap-2 mb-1;
+}
