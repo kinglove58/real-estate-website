@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 import { CountUp } from "countup.js";
 import HeroImage from "../assets/images/hero-image.png";
 import SearchBar from "./SerchBar";
+
 function Hero() {
   const countUpRef1 = useRef(null);
   const countUpRef2 = useRef(null);
@@ -26,21 +27,20 @@ function Hero() {
 
   return (
     <>
-      <section className="bg-gray-950 flex justify-around items-center gap-3 pt-2 w-full text-white relative">
+      <section className="bg-gray-950 flex flex-col md:flex-row justify-center items-center gap-3 py-10 w-screen text-white relative md:px-4">
         {/* left side */}
-        <div className="flex flex-col gap-6">
-          {/*  <div className="w-[400px] h-[400px] rounded-full bg-gray-400 shadow-custom-gray opacity-50 absolute top-1 left-" /> */}
-          <h1 className="font-bold text-6xl">
+        <div className="md:w-1/2 flex flex-col gap-6 p-4 text-center md:text-left">
+          <h1 className="font-bold text-4xl md:text-6xl">
             Discover <br /> Most Suitable <br /> Property
           </h1>
-          <p className="max-w-md text-gray-400">
+          <p className="max-w-md text-gray-400 mx-auto md:mx-0">
             Find a variety of Properties that suit you very easily forget all
             difficultes in finding a residencial for you
           </p>
 
           <SearchBar />
 
-          <div className="flex justify-between items-center gap-3">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-3">
             <div>
               <span className="flex-center-text">
                 <span ref={countUpRef1}></span>
@@ -65,9 +65,9 @@ function Hero() {
           </div>
         </div>
         {/* right side */}
-        <div className="rounded-t-lg">
+        <div className="md:w-1/2 p-4 flex justify-center">
           <img
-            className="w-[600px] h-[600px] rounded-t-full border-8 border-gray-700 "
+            className="w-full h-auto max-w-md md:max-w-lg rounded-t-full border-8 border-gray-700"
             src={HeroImage}
             alt="house hero image"
           />

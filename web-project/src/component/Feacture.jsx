@@ -42,7 +42,7 @@ const Feacture = () => {
   };
 
   return (
-    <div className="container mx-auto my-10">
+    <div className="container mx-auto my-10 text-center p-4">
       <div className="flex flex-col items-center gap-2">
         <h3 className="text-orange-300 text-xl">Number can't be wrong</h3>
         <h2 className="text-blue text-4xl font-semibold">

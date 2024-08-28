@@ -1,4 +1,6 @@
+import ContactUs from "./component/ContactUs";
 import Feacture from "./component/Feacture";
+import Footer from "./component/Footer";
 import Header from "./component/Header";
 import Home from "./component/Home";
 import OurValue from "./component/OurValue";
@@ -22,6 +24,9 @@ function App() {
       <Feacture />
       <Residencies />
       <OurValue />
+      {/*  <ContactUs /> */}
+      <ContactUs />
+      <Footer />
     </>
   );
 }

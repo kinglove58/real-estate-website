@@ -1,6 +1,19 @@
 import contactImage from "../../src/assets/images/r1.png";
 import { IoCall, IoChatbubble, IoVideocam, IoMail } from "react-icons/io5";
 
+/* const ContactOption = ({ Icon, title, number, action }) => (
+  <div className="bg-gray-100 p-4 rounded-lg flex flex-col items-start">
+    <div className="flex items-center mb-2">
+      <Icon className="text-blue-600 mr-2" size={20} />
+      <span className="text-gray-700">{title}</span>
+    </div>
+    <span className="text-gray-500 text-sm mb-2">{number}</span>
+    <button className="bg-blue-500 text-black px-4 py-2 rounded-md hover:bg-blue-700 transition-colors w-full">
+      {action}
+    </button>
+  </div>
+); */
+
 const ContactOption = ({ Icon, title, number, action }) => {
   return (
     <div className="flex flex-col rounded-lg p-4 items-start bg-gray-100 ">
@@ -22,9 +35,9 @@ const ContactOption = ({ Icon, title, number, action }) => {
   );
 };
 
-const ContactUs = () => {
+const TryOut = () => {
   return (
-    <div id="contactus" className="container mx-auto p-4 md:p-8">
+    <div className="container mx-auto p-4 md:p-8">
       <div className="flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
           <h2 className="text-2xl font-bold text-yellow-500 mb-2">
@@ -76,4 +89,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default TryOut;

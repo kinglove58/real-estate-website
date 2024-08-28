@@ -7,7 +7,7 @@ export default {
         primary: "#1f3e72",
         secondary: "rgba(225,225,255,0.78)",
         black: "#131110",
-        blue: "#4066ff",
+        /*  blue: "#4066ff", */
         lightBlue: "#eeeeff",
       },
       boxShadow: {
